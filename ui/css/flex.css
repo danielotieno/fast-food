@@ -14,4 +14,7 @@
         flex-direction: row;
         justify-content: space-between;
     }
+    .slider {
+        padding-left: 250px;
+    }
 }
