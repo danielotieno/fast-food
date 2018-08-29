@@ -38,6 +38,14 @@ img {
     max-width: 100%;
 }
 
+.btn {
+    color: #fff;
+    text-align: center;
+    padding: .625em 1.25em;
+    background: #3acec2;
+    border-radius: .35em;
+}
+
 
 /* =================================
   Main Layout Styles
@@ -202,6 +210,20 @@ img.active {
     width: 100%;
 }
 
+p img {
+    display: block;
+    visibility: visible;
+}
+
+.text {
+    text-align: center;
+}
+
+#menu img {
+    display: block;
+    visibility: visible;
+}
+
 @-webkit-keyframes fadeImg {
     from {
         opacity: 0;
@@ -240,8 +262,5 @@ img.active {
         width: 80%;
         margin: 0 auto;
         max-width: 1150px;
-    }
-    .tagline {
-        font-size: 1.4em;
     }
 }
