@@ -1,4 +1,4 @@
-# fast-food
+# Fast-Food-Fast
 Fast-Food-Fast is a food delivery service app for a restaurant.
 
 Site is avaiable at [Fast Food](https://danielotieno.github.io/fast-food/ui/)
