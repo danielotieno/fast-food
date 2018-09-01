@@ -15,7 +15,7 @@ Site is avaiable at [Fast Food](https://danielotieno.github.io/fast-food/ui/)
 - `git clone git@github.com:xxxx/fast-food.git ` xxxx is your GitHub name
 - cd `fast-food`
 - Open the directory in  your favourite editor
-- Open `index.html` using a `browser` to view the homepage
+- Open index.html using a `browser` to view the homepage
 ```
 
 ### To View Dashboard 
