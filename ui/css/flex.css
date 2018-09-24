@@ -18,6 +18,7 @@ body {
         flex-direction: column;
         align-items: center;
     }
+    
     .col {
         flex: 1;
         display: flex;
