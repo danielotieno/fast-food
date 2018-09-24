@@ -3,6 +3,7 @@
 }
 
 body {
+    font-family: 'Sawarabi Mincho', sans-serif;
     line-height: 1.6;
     color: #3a3a3a;
     margin: 0;
@@ -36,6 +37,14 @@ a {
 
 img {
     max-width: 100%;
+}
+
+.btn {
+    color: #fff;
+    text-align: center;
+    padding: .625em 1.25em;
+    background: #3acec2;
+    border-radius: .35em;
 }
 
 
@@ -80,11 +89,6 @@ img {
     padding-bottom: .5em;
 }
 
-.banner,
-.main-footer {
-    text-align: center;
-}
-
 .banner {
     color: #fff;
     padding: 3.2em 0;
@@ -97,9 +101,19 @@ img {
 }
 
 .main-footer {
-    background: #d9e4ea;
+    background: #333333;
     padding: 2em 0;
     margin-top: 30px;
+    color: #fff;
+}
+
+.footer-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-footer h3 {
+    color: #fff;
 }
 
 
@@ -202,6 +216,20 @@ img.active {
     width: 100%;
 }
 
+p img {
+    display: block;
+    visibility: visible;
+}
+
+.text {
+    text-align: center;
+}
+
+#menu img {
+    display: block;
+    visibility: visible;
+}
+
 @-webkit-keyframes fadeImg {
     from {
         opacity: 0;
@@ -240,8 +268,5 @@ img.active {
         width: 80%;
         margin: 0 auto;
         max-width: 1150px;
-    }
-    .tagline {
-        font-size: 1.4em;
     }
 }
